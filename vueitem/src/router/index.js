@@ -4,6 +4,7 @@ import Child1 from '../components/Child1'
 import Child2 from '../components/Child2'
 import Xi from '../components/Xi'
 import Three from  '../components/Three'
+import Foot from '../components/Foot'
 Vue.use(Router)
 
 export default new Router({
@@ -28,6 +29,10 @@ export default new Router({
     {
       path:'/child2',
       component:Child2
+    },
+    {
+      path:'/foot',
+      component:Foot
     }
   ]
 })

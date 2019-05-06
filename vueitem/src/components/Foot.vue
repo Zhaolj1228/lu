@@ -1,5 +1,7 @@
 <template>
-    $END$
+    <div>
+      这是Foot组件
+    </div>
 </template>
 
 <script>
