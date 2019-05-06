@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import Child1 from '../components/Child1'
 import Child2 from '../components/Child2'
 import Xi from '../components/Xi'
+import Three from  '../components/Three'
 Vue.use(Router)
 
 export default new Router({
@@ -13,7 +14,14 @@ export default new Router({
       children:[
         {
           path:'xi'
-          ,component:Xi
+          ,component:Xi,
+          children: [
+            {
+              path:"three",
+              component:Three,
+              name:"three"
+            }
+          ]
         }
       ]
     },
