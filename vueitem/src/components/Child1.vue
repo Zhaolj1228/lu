@@ -1,5 +1,5 @@
 <template>
-    $END$
+    <div>我是child1数据</div>
 </template>
 
 <script>
